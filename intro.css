@@ -135,11 +135,11 @@ h4 {
 }
  .section .slidelist .left {
   left:5px;
-  background:url('images/icon/left.png') center center / 100% no-repeat;
+  background:url('image/icon/left.png') center center / 100% no-repeat;
 }
  .section .slidelist .right {
   right:5px;
-  background:url('images/icon/right.png') center center / 100% no-repeat;
+  background:url('image/icon/right.png') center center / 100% no-repeat;
 }
 
  .section input[id="slide01"]:checked ~ .slidewrap .slidelist > li {
@@ -270,15 +270,15 @@ left: 20px;
 /* 메인 영역: 공유하고 싶은 것 */
 /***********************/
  #playlistbox1 {
-  background: url(images/playlist/1.svg);
+  background: url(image/playlist/1.svg);
   background-size: cover;
  }
  #playlistbox2 {
-  background: url(images/playlist/2.svg);
+  background: url(image/playlist/2.svg);
   background-size: cover;
  }
  #playlistbox3 {
-  background: url(images/playlist/3.svg);
+  background: url(image/playlist/3.svg);
   background-size: cover;
  }
 /********************/
