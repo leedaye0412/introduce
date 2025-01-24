@@ -248,7 +248,7 @@ left: 20px;
 }
 .grad {
   max-width: 860px;
-  height: 450px;
+  /* height: 450px; */
   background: #139DF3;
   background: linear-gradient(to bottom, #139DF3, #00DBEB);
   padding: 20px;
@@ -288,8 +288,11 @@ left: 20px;
 /* 미디어쿼리          */
 /********************/
 @media (max-width: 767px){
-  body {
-    width: 400px;
+  #container {
+    width: 100%;
+  }
+  .navi {
+    width: 100%;
   }
   main {
     margin-top: 250px;
@@ -317,39 +320,39 @@ left: 20px;
   padding-bottom: 100px;
 }
 .bigbox {
-  gap: 10px; 
-  padding: 10px; 
+  gap: 15px; 
+  padding: 15px; 
   padding-bottom: 50px;
 }
 a{
-  font-size: 1.8em;
+  font-size: 2em;
 }
 .box {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   padding: 5px;
 }
 .yogaimg {
-  max-width: 100px;
+  max-width: 150px;
   position: absolute;
   bottom: 0px;
-  left: -10px;
+  left: -20px;
 }
 .yogatext {
-  padding-left: 25px;
+  padding-left: 30px;
 }
 .headphone {
-  max-width: 40px;
+  max-width: 80px;
   top:10px;
   right: 10px;
 }
 .guitar {
-  max-width: 40px;
+  max-width: 80px;
   bottom: 10px;
   left: 10px;
 }
 .music {
-  max-width: 40px;
+  max-width: 80px;
   bottom: 10px;
   right: 10px;
 }
@@ -359,7 +362,7 @@ a{
   top:-50px
 }
 .person {
-max-width: 25px;
+max-width: 90px;
 top: 10px;
 left: 10px;
 
@@ -369,7 +372,7 @@ left: 10px;
 }
 
 .section .slidewrap {
-  max-width:400px;
+  max-width:300px;
   margin:0 auto;
   overflow:hidden;
 }
@@ -380,9 +383,6 @@ left: 10px;
 .grad {
   max-width: 400px;
   height: 250px;
-}
-.plan_detail {
-  padding-top: 25px;
 }
 .whitebox{
   padding: 5px;
