@@ -1,7 +1,10 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Basic&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 /********************/
 /* 헤더 영역: 네비게이션 */
 /********************/
+* {
+  font-family: Basic;
+}
 #container {
   width: 960px;
   margin: 0 auto;
