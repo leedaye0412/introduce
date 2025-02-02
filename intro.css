@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Basic&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Noto+Sans+KR:wght@100..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Basic&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Noto+Sans+KR:wght@100..900&display=swap'); */
 /********************/
 /* 헤더 영역: 네비게이션 */
 /********************/
 * {
-  font-family: Noto Sans Korean;
+  font-family: "Noto Sans Korean";
 }
 
 #container {
